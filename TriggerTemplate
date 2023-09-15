@@ -12,3 +12,4 @@ trigger AccountTrigger on Account( before insert, after insert, before update, a
     if(Trigger.isBefore && Trigger.isDelete){
     }
 }
+
